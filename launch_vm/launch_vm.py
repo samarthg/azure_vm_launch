@@ -23,7 +23,6 @@ AZURE_CLIENT_SECRET = ""
 AZURE_SUBSCRIPTION_ID = ""
 
 LOCATION = 'westus2'
-#im_crawler_keys 12/31/2299 /Q1QiVhgwNLrHOwwvaBAzKaBbgEA+p7YmnBT/6z8Taw=
 # Resource Group
 GROUP_NAME = ''
 
@@ -34,7 +33,7 @@ SUBNET_NAME = ''
 # VM
 OS_DISK_NAME = ""
 STORAGE_NAME = ""
-SOURCE_CUSTOM_IMAGE_VHD = "https://imcrawleruswest2.blob.core.windows.net/vhds/im-crawler-trends-base20170615160218.vhd"
+SOURCE_CUSTOM_IMAGE_VHD = "https://predefined.blob.core.windows.net/vhds/predefined_vm_image_-base20170615160218.vhd"
 
 NIC_NAME = 'azure-sample-nic' # THis has to be dynamically generated unique for each vm
 USERNAME = 'uname'
